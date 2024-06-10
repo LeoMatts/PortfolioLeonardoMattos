@@ -18,10 +18,11 @@
 @media screen and (max-width:480px) {
     .redes {
         margin: 2em;
-        padding-left: 7em;
+        padding-left: 5em;
     }
 
     .redes_h2 {
+        font-size: 34px;
         margin-top: -5em;
     }
 
