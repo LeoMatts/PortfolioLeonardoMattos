@@ -5,7 +5,7 @@
 }
 
 .redes_h2 {
-    font-size: 28px;
+    font-size: 30px;
     color: var(--cinza-escuro);
 }
 
@@ -18,11 +18,11 @@
 @media screen and (max-width:480px) {
     .redes {
         margin: 2em;
-        padding-left: 5em;
+        padding-left: 2em;
     }
 
     .redes_h2 {
-        font-size: 34px;
+        font-size: 28px;
         margin-top: -5em;
     }
 
@@ -39,7 +39,7 @@
     }
 
     .redes_h2 {
-        font-size: 34px;
+        font-size: 28px;
     }
 
     .redes_logos img {
