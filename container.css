@@ -1,0 +1,71 @@
+.introducao {
+    position: absolute;
+    margin: -40em 10em;
+}
+
+.introducao_textos {
+    color: var(--cinza-escuro);
+}
+
+.introducao_h1 {
+    font-size: 64px;
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    color: var(--cinza-escuro);
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+.introducao_p {
+    font-size: 24px;
+    line-height: 1.3em;
+    padding-bottom: 2em;
+}
+
+/*BOTÕES*/
+
+.introducao_buttons {
+    margin-top: 2em;
+}
+
+.introducao_buttons a {
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 19px;
+    margin-right: 10px;
+}
+
+.introducao_buttons_um {
+    background-color: var(--amarelo);
+    border: 1px solid var(--amarelo);
+}
+
+.introducao_buttons_dois {
+    border: 1px solid black;
+}
+
+@media screen and (max-width:480px) {
+    .introducao{
+        margin: -19.2em 2em;
+    }
+    .introducao_h1{
+        font-size: 36px;
+    }
+    .introducao_p{
+        font-size: 16px;
+    }
+    .introducao_buttons a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:748px) and ((max-width:1248px)) {
+    .introducao_h1{
+        font-size: 53px;
+        margin-top: 2em;
+    }
+    
+}

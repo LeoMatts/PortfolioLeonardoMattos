@@ -1,0 +1,18 @@
+.footer_imagem {
+    margin-bottom: -1em;
+    width: 30vw;
+}
+
+@media screen and (max-width:480px) {
+    .footer_imagem {
+        width: 50vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:748px) and ((max-width:1024px)) {
+    .footer_imagem{
+        margin-bottom: -30em;
+        width: 80vw;
+    }
+}

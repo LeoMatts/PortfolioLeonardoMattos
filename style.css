@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url("cabecalho.css");
+@import url("container.css");
+@import url("projetos.css");
+@import url("footer.css");
+@import url("redes.css");
+
+
+
+
+:root {
+    --cinza-escuro: #25282B;
+    --cinza-medio: #575757;
+    --cinza-claro: #8282821f;
+    --amarelo: #FDC435;
+    --branco: #FFFF;
+    --fundo: #f1f1f1e3;
+
+
+    --fonte-destaque: "Comfortaa", sans-serif;
+    --fonte-padrao: "Nunito Sans", sans-serif;
+    --fonte-titulo: "Playfair Display", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--fundo);
+    font-size: 16px;
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+}

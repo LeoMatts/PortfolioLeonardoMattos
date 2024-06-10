@@ -1,0 +1,37 @@
+.projetos {
+    text-align: center;
+}
+
+.projetos h1{
+    font-family: var(--fonte-titulo);
+    font-size: 50px;
+    color: var(--cinza-escuro);
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: var(--amarelo);
+}
+
+@media screen and (max-width: 480px) {
+    .projetos {
+        margin: 10em;
+        margin-left: 4.3em;
+    }
+    .projetos h1{
+        font-size: 30px;
+        padding: 3em 0 1em;
+        margin-left: 4em;
+    }
+    .projetos img{
+        width: 90vw;
+        zoom: 1.6;
+    }
+}
+
+@media screen and (min-width:748px) and ((max-width:1284px)) {
+    .projetos{
+        padding-top: 10em;
+    }
+    .projetos h1{
+        padding-left: 11em;
+    }
+}

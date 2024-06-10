@@ -1,0 +1,51 @@
+.redes {
+    width: 99vw;
+    position: absolute;
+    text-align: center;
+}
+
+.redes_h2 {
+    font-size: 28px;
+    color: var(--cinza-escuro);
+}
+
+.redes_logos img {
+    width: 3vw;
+    margin: 1.8em .7em;
+    filter: contrast(80%);
+}
+
+@media screen and (max-width:480px) {
+    .redes {
+        margin: 2em;
+        padding-left: 7em;
+    }
+
+    .redes_h2 {
+        margin-top: -5em;
+    }
+
+    .redes_logos img {
+        width: 8vw;
+    }
+}
+
+@media screen and (min-width:748px) and ((max-width:1248px)) {
+    .redes {
+        text-align: center;
+        width: 100vw;
+        margin-left: 20em;
+    }
+
+    .redes_h2 {
+        font-size: 34px;
+    }
+
+    .redes_logos img {
+        width: 5vw;
+    }
+
+    .redes p {
+        font-size: 26px;
+    }
+}

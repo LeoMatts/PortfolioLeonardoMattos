@@ -1,0 +1,50 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho_texto {
+    margin: 1.5em 0 0 5.8em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.direita {
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 71em;
+}
+
+.cabecalho_imagem {
+    zoom: 1.3;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        display: none;
+    }
+
+    .cabecalho_texto {
+        margin: 2em 2.4em;
+    }
+
+    .cabecalho_imagem img {
+        width: 100vw;
+        height: auto;
+        zoom: 1.1;
+        margin-left: 4em;
+    }
+}
+
+@media screen and (min-width:748px) and ((max-width:1284px)) {
+    .direita {
+        margin: 0 46em;
+    }
+
+    .cabecalho_imagem{
+        margin-left: 16em;
+    }
+
+}
